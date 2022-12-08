@@ -1,0 +1,232 @@
+* {
+    margin: 0vw;
+}
+
+#mainContainer {
+    width: 98, 9vw;
+    height: 256vh;
+    border: 0.002vw solid black;
+    background-image: linear-gradient(rgb(65, 63, 63),black)
+}
+
+#div1 {
+    width: 98, 9vw;
+    height: 95vh;
+    border: 0.002vw solid black;
+    background-color: rgb(66, 2, 34);
+}
+
+#div2 {
+    width: 98, 9vw;
+    height: 55vh;
+    margin-top: 9vh;
+    /* border: 0.002vw solid black; */
+}
+
+#div3 {
+    width: 98, 9vw;
+    height: 95vh;
+    /* border: 0.002vw solid black; */
+}
+hr{
+    margin-top: 0.8vh;
+    height: 3vh;
+    background-color: rgb(150, 146, 146);
+    width: 0.002vw;
+    margin-left: -1vw;
+}
+#moviename {
+    width: 45vw;
+    height: 85vh;
+    /* border: 0.002vw solid black; */
+}
+
+#m {
+    width: 35vw;
+    height: 40vh;
+    /* border: 0.002vw solid black; */
+    margin-left: 10vh;
+    margin-top: 27vh;
+}
+
+h1 {
+    font-size: 5vw;
+    margin-top: 1vh;
+}
+#nametitle{
+    margin: auto;
+    margin-top: -25vh;
+}
+
+#play {
+    width: 25vw;
+    height: 14vh;
+    margin-left: 3vw;
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#now {
+    height: 7vh;
+    width: 15vw;
+    border-radius: 1vh;
+    margin-left: 1vw;
+    margin-right: 1.5vw;
+}
+
+#plus {
+    width: 4vw;
+    height: 7vh;
+}
+
+#plus1 {
+    width: 3vw;
+    height: 5vh;
+    margin-top: 1vh;
+
+}
+
+i {
+    width: 4vw;
+    height: 3vh;
+    font-size: 2vw;
+    margin-left: 3vw;
+}
+h4:hover{
+    color: white;
+    text-decoration: underline 0.3vh ;
+}
+#mainu {
+    width: 98, 9vw;
+    height: 5vh;
+    /* border: 0.002vw solid black; */
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+}
+
+#sony {
+    width: 18vw;
+    height: 5vh;
+    /* border: 0.002vw solid black; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+#mainu1 {
+    width: 75vw;
+    height: 5vh;
+    /* border: 0.002vw solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+#search {
+    width: 8vw;
+    height: 5vh;
+    /* border: 0.002vw solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    width: 4vw;
+    margin-left: 3vw;
+}
+
+#Subscribe {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 1vh;
+    margin: auto;
+    background-color: rgb(6, 6, 165);
+    color: white;
+}
+
+h4 {
+    /* text-align: center; */
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    color: rgb(181, 178, 178);
+
+}
+
+#s1 {
+    margin: auto;
+    margin-left: -1.2vw;
+    width: 1.5vw;
+    height: 2.5vh;
+}
+#title {
+    width: 30vw;
+    height: 8vh;
+    /* border: 2px solid black; */
+    margin-left: 0.2vw;
+}
+
+#Oscar_Movies {
+    width: 98vw;
+    height: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+#Oscar_Winners {
+    width: 12vw;
+    height: 38vh;
+    border-radius: 1vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+#National {
+    width: 98vw;
+    height: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+#National_Award_Winners {
+    width: 12vw;
+    height: 38vh;
+    border-radius: 1vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1.3vh;
+    margin-left: 1vw;
+    color: white;
+}
+
+#Advertise {
+    width: 98vw;
+    height: 40vh;
+    /* border: 1px solid black; */
+    margin-top: 2vh;
+    margin-top: 5vh;
+    border-radius: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Oscar_Winners:hover {
+    transform: scale(1.2);
+
+    /* color: white; */
+}
+
+#National_Award_Winners:hover {
+    transform: scale(1.2);
+}
+
