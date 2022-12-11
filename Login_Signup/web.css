@@ -1,0 +1,141 @@
+#mainContainer{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 220px;
+}
+#container1{
+    width: 500px;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+#container2{
+    width: 350px;
+    height: 100%;
+    background-color:#37B299;
+}
+
+
+.subcontain1{ 
+    width:400px ;
+    height:150px ;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    margin-left: 28px;
+    
+   
+} 
+h1{
+    text-align:center ;
+    
+} 
+p{
+    text-align: center;
+    position: relative;
+    top:-15px
+    
+
+}
+.main{
+    margin-left: 130px;
+    position: relative;
+    top: -20px;
+    
+}
+
+.facebook ,.google,.linkedin{
+    width:30px;
+    height:30px;
+    justify-content: space-around;
+    margin-left:10px ;
+}
+.google{
+    border-radius: 50%;
+}
+
+
+.main
+{
+    display: flex;
+    /* margin-top: 55px; */
+}
+
+.line{
+    width: 120px;
+    margin-right: 1px;
+    /* margin-top: 15px; */
+}
+.line2{
+    width: 120px;
+    margin-left: 1px;
+}
+
+.mainline{
+    display: flex;
+    margin-top: 5px;
+}
+
+#fname{
+    margin-left: 100px;
+    border-radius: 5px ;
+    margin-top: 20px;
+    width: 260px ;
+    height: 25px;
+    background-color:rgb(244, 237, 237);
+    border: 1px;
+    color: white;
+    color: rgb(55, 0, 255)
+    (183, 163, 63);
+}
+#lname{
+    margin-left: 100px;
+    border-radius: 5px ;
+    margin-top: 4px;
+    width: 260px ;
+    height: 25px;
+    background-color:rgb(244, 237, 237);
+    border: 1px;
+    color: rgb(183, 63, 63);
+ } 
+#sign{
+    margin-left: 175px;
+    height: 30px;
+    font-size: 12px;
+    width: 120px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: #28B498;
+    color: white;
+}
+.new{
+    width: 250px;
+    height: 200px;
+    /* border: 2px solid black; */
+    margin-top: 140px;
+    margin-left: 30px;
+}
+#con2{
+   align-items: center;
+    margin-left: 10px;
+    color: white;
+    font-size: 45px;
+}
+#prag{
+    font-size: 14px;
+    color: white;
+}
+#up{
+    align-content: center;
+    margin-left: 75px;
+    width: 100px;
+    position: relative;
+    top: -20px;
+    border-radius: 15px;
+    height: 24px;
+    font-size: 10px;
+    border-radius: 1px solid grey
+    ;
+}
