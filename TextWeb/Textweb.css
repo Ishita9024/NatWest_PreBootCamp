@@ -1,0 +1,126 @@
+#maincontainer{
+    width: 70vw;
+    height: 95vh;
+    border: 0.001vw solid black;
+    margin: auto;
+}
+#first{
+    width:70vw;
+    height: 6vh;
+    background-color: #000;
+    border: 1px solid black;
+    border-left: 1px solid #000;
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#fbox1{
+    width: 30vw;
+    height: 4vh;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    display:flex;
+    flex-direction: row;
+}
+#box1{
+    font-size: 1.15vw;
+    margin-top: 0.5vh;
+    margin-left: 1.9vw;
+    padding: auto;
+    color: white;
+}
+#fbox2{
+    width: 30vw;
+    height: 6vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+input{
+    width: 7vw;
+    height: 2.5vh;
+    margin-left: 3vw;
+    margin-top: 0.2vh;
+    border-radius: 0.5vh;
+}
+#sign{
+    width: 7vw;
+    height: 3.3vh;
+    margin-left: 3vw;
+    margin-top: 0.2vh;
+    border-radius: 0.5vh}
+#second{
+    width: 60vw;
+    height: 35vh;
+    margin:auto;
+    background-color: #EEEEEE;
+    /* border: 1px solid black; */
+    margin-top: 2vh;
+    margin-left: 6vw;
+    border-radius: 1vh;
+}
+
+h1{
+    font-size: 7vh;
+    margin-left: 5vh;
+    /* margin-top: 1vh; */
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5vh;
+    margin-top: -4vh;
+    font-size: 3vh;
+}
+#learnmore{
+    width:10vw;
+    height: 5vh;
+    color:white;
+    background-color:#0370C1;
+    margin-left: 5vh;
+    margin-top: -2vh;
+    border-radius: 0.5vh;
+
+}
+/* #text{
+    width: 43vw;
+    height: 20vh;
+    border: 1px solid black;
+    margin-top: 4vh;
+    margin-left: 5vw;
+} */
+#third{
+    width: 55vw;
+    height: 40vh;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left:6vw ;
+    
+}
+#grid{
+    display:grid ;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+#gri{
+    width: 15vw;
+    height: 35vh;
+    /* border: 1px solid black; */
+}
+h2{
+    margin-top: -1vh;
+}
+p{
+    font-size: small;
+    margin-top: -1vh;
+}
+hr{
+    width:59vw;
+    margin-top: -2vh;
+    color: transparent
+}
+ #lastbox{
+    
+    margin-top: 2%;
+    margin-left: 10%;
+} 
