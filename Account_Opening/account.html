@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <style>
+        table, th, td {
+           
+            width: 500px;
+            padding: 10px;  
+            text-align: center;
+        }
+        p{
+            margin-top: -15px;
+        }
+        textarea{
+            height: 20px;
+        }
+        select{
+            height: 30px;
+            width: 250px;
+        }
+        input{
+            height: 20px;
+            width: 250px;
+        }
+        #radio{
+            height: 10px;
+            width: 30px;
+        }
+        #maindiv{
+            width: 500px;
+            height: 600px;
+            border: 2px solid black;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+        <table>
+            <tr>
+                <th> (<span style="color: red;">*</span>)Required field</th>
+            </tr>
+            <tr>
+                <td>Acount Type <span style="color: red;">*</span></td>
+                <td>
+                    <input id="radio" type="radio">Personal
+                    <input id="radio" type="radio">Business
+                </td>
+            </tr>
+            <tr>
+                <td>First Name <span style="color: red;">*</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Last Name <span style="color: red;">*</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Country/Region <span style="color: red;">*</span></td>
+                <td><select name="" id="">
+                    <option value="">India</option>
+                    <option value="">UK</option>
+                    <option value="">USA</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Street Address <span style="color: red;">*</span></td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Street Address 2 <span style="color: red;">*</span></td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>City <span style="color: red;">*</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>State <span style="color: red;">*</span></td>
+                <td><select name="" id="">
+                    <option value="">Madhya Pradesh</option>
+                    <option value="">Delhi</option>
+                    <option value="">Rajasthan</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>ZIP Code <span style="color: red;">*</span></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Phone Number <span style="color: red;">*</span></td>
+                <td><input type="number"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
